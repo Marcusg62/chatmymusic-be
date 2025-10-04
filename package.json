@@ -4,7 +4,7 @@
   "scripts": {
     "build": "tsc --build",
     "lint": "tslint --project \"tsconfig.json\"",
-    "start": "node ./dist/src/index",
+    "start": "tsc --build && node ./dist/src/index",
     "start:dev": "nodemon",
     "test": "nodemon --config ./spec/nodemon.json",
     "docker-build": "docker build -t my-node-app . --platform=linux/amd64",
@@ -18,20 +18,17 @@
     "exec": "ts-node ./src"
   },
   "dependencies": {
-    "bcrypt": "^4.0.1",
     "command-line-args": "^5.1.1",
     "cookie-parser": "^1.4.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-async-errors": "^3.1.1",
     "express-basic-auth": "^1.2.0",
-    "firebase-admin": "^8.12.1",
     "helmet": "^3.22.0",
     "http-status-codes": "^1.4.0",
     "jsonwebtoken": "^8.5.1",
     "module-alias": "^2.2.2",
     "moment": "^2.26.0",
-    "moment-timezone": "^0.5.31",
     "morgan": "^1.10.0",
     "randomstring": "^1.1.5",
     "winston": "^3.2.1"
