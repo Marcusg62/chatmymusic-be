@@ -1,3 +1,6 @@
+import dotenv from 'dotenv'
+dotenv.config({ path: '.env' })
+
 // server/index.ts
 import express from "express";
 import cookieParser from "cookie-parser";
@@ -145,4 +148,6 @@ app.get("/spotify/features", async (req, res) => {
   res.json(await sfetch(req, `/audio-features?ids=${ids}`));
 });
 
-app.listen(8080, () => console.log("Server on :8080"));
+app.listen(8080, () => {
+    console.log("process.env.SPOTIFY_CLIENT_ID", process.env.SPOTIFY_CLIENT_ID);
+    console.log("Server on :8080")});
