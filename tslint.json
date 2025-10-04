@@ -1,0 +1,22 @@
+{
+  "extends": "tslint:recommended",
+  "rules": {
+    "no-trailing-whitespace": false,
+    "member-ordering": false,
+    "object-literal-sort-keys": false,
+    "ordered-imports": false,
+    "quotemark": [true, "single"],
+    "no-consecutive-blank-lines": false,
+    "lines-between-class-members": [false, 2],
+    "no-console": false
+  },
+  "linterOptions": {
+    "exclude": [
+      "./node_modules/**"
+    ]
+  },
+  "rulesDirectory": [
+    "node_modules/tslint-lines-between-class-members"
+  ]
+  
+}

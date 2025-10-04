@@ -1,0 +1,46 @@
+[bold: on]
+            [align: middle] Hot Thai[bold: off]
+            1600 Hover St, Longmont, CO 80501
+            (303) 861-1226
+
+            Order # [bold: on]20[bold: off]
+            Order placed on: May 25th 2020, 9:56 pm
+
+[align: left][bold: on] [mag: w 2; h 2] Pickup[bold: off] [mag]
+[align: left] Pickup For: Marcus G. [bold: off] 
+            (720) 224-4824
+            [bold: on]Instructions: [bold: off] 
+            
+[align: middle] [bold: on] 7 Items [bold: off]             [align: left] [mag]
+             [bold: off] [mag: w 2; h 1] [align: middle]            ────────────────────────            [align: left]             [mag]
+            
+ [mag: w 2; h 2] [bold: on] [column: left 1x Appetizer Sampler (for 2);] [bold: off] [mag: w 1; h 1] [column: right $13.50] [mag] [mag: w 1; h 1] [bold: on]
+                        Regular
+                         [bold: off] [mag: w 2; h 1] [align: middle]            ────────────────────────            [align: left]             [mag]
+ [mag: w 2; h 2] [bold: on] [column: left 1x Vietnamese Egg Roll;] [bold: off] [mag: w 1; h 1] [column: right $7.20] [mag] [mag: w 1; h 1] [bold: on]
+                        Regular
+                         [bold: off] [mag: w 2; h 1] [align: middle]            ────────────────────────            [align: left]             [mag]
+ [mag: w 2; h 2] [bold: on] [column: left 1x Coconut Shrimp (GF);] [bold: off] [mag: w 1; h 1] [column: right $7.95] [mag] [mag: w 1; h 1] [bold: on]
+                        Regular
+                         [bold: off] [mag: w 2; h 1] [align: middle]            ────────────────────────            [align: left]             [mag]
+ [mag: w 2; h 2] [bold: on] [column: left 1x Sesame Chicken ;] [bold: off] [mag: w 1; h 1] [column: right $14.50] [mag] [mag: w 1; h 1] [bold: on]
+                        Dinner
+                            Add: Broccoli,Carrots,Cilantro
+    Fried Rice
+ [bold: off] [mag: w 2; h 1] [align: middle]            ────────────────────────            [align: left]             [mag]
+ [mag: w 2; h 2] [bold: on] [column: left 1x Cheese Cake ;] [bold: off] [mag: w 1; h 1] [column: right $5.50] [mag] [mag: w 1; h 1] [bold: on]
+                        Regular
+                         [bold: off] [mag: w 2; h 1] [align: middle]            ────────────────────────            [align: left]             [mag]
+ [mag: w 2; h 2] [bold: on] [column: left 1x Avocado Boba;] [bold: off] [mag: w 1; h 1] [column: right $4.95] [mag] [mag: w 1; h 1] [bold: on]
+                        Regular
+                         [bold: off] [mag: w 2; h 1] [align: middle]            ────────────────────────            [align: left]             [mag]
+ [mag: w 2; h 2] [bold: on] [column: left 1x Crispy Vegetable Egg Roll;] [bold: off] [mag: w 1; h 1] [column: right $0.00] [mag] [mag: w 1; h 1] [bold: on]    Coupon Item
+                         [bold: off] [mag: w 2; h 1] [align: middle]            ────────────────────────            [align: left]             [mag]
+            [column: left Subtotal; right $53.60]
+            [column: left Convenience Fee; right $2.68]
+            [column: left Tax; right $4.50]
+            [column: left Tip; right $8.03]
+[bold: on] [column: left Total ; right $68.81] [bold: off]
+[align: middle] [bold: on] PAID ONLINE [bold: off]
+            DO NOT CHARGE
+[bold: on]Powered by Inhouse Orders [bold: off]
