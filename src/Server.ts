@@ -1,5 +1,5 @@
+import 'dotenv/config'; // or: require('dotenv').config();
 import helmet from "helmet";
-import bodyParser from "body-parser";
 import express, { Request, Response, NextFunction } from "express";
 import "express-async-errors";
 
@@ -16,10 +16,7 @@ export function logRequest(req: Request, res: Response, next: NextFunction) {
 const app = express();
 app.use(express.json()); // <- Needed to parse JSON bodies
 app.use(logRequest);
-// app.use(logResponse);
-
 app.use(express.urlencoded({ extended: true }));
-app.use(bodyParser.json());
 
 // Show routes called in console during development
 // if (process.env.NODE_ENV === 'development') {
